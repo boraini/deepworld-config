@@ -163,23 +163,23 @@ skills:
       "9": Increase your zoom even farther.
       "10": Increase your zoom even farther.
 
-  science:
-    description: Craft better items, avoid workshop incidents, and reduce dessication
-    info:
-      - title: Science
-      - text: "- Avoid crafting workshop incidents"
-      - text: "- Craft better items"
-      #- text: "- Reduce dessication"
-    levels:
-      "2": Craft control panels and decrease the chance of workshop incidents.
-      "3": Unlock the Automata skill and craft mini tesla coils.
-      "4": Craft large control panels and decrease the chance of workshop incidents.
-      "5": Craft large magnets, tesla coils, and decrease the chance of workshop incidents.
-      "6": Decrease the chance of workshop incidents.
-      "7": Decrease the chance of workshop incidents.
-      "8": Decrease the chance of workshop incidents.
-      "9": Decrease the chance of workshop incidents.
-      "10": Craft brain wine and decrease the chance of workshop incidents.
+#  science:
+#    description: Craft better items, avoid workshop incidents, and reduce dessication
+#    info:
+#      - title: Science
+#      - text: "- Avoid crafting workshop incidents"
+#      - text: "- Craft better items"
+#      #- text: "- Reduce dessication"
+#    levels:
+#      "2": Craft control panels and decrease the chance of workshop incidents.
+#      "3": Unlock the Automata skill and craft mini tesla coils.
+#      "4": Craft large control panels and decrease the chance of workshop incidents.
+#      "5": Craft large magnets, tesla coils, and decrease the chance of workshop incidents.
+#      "6": Decrease the chance of workshop incidents.
+#      "7": Decrease the chance of workshop incidents.
+#      "8": Decrease the chance of workshop incidents.
+#      "9": Decrease the chance of workshop incidents.
+#      "10": Craft brain wine and decrease the chance of workshop incidents.
 
   stamina:
     description: Increase max health and add accessory slots
@@ -198,24 +198,24 @@ skills:
       "9": Increase max health to 9 and accessory slots to 14.
       "10": Increase max health to 10 and accessory slots to 15.
 
-#  survival:
-#    description: Reduce elemental damage, avoid environmental damage, and craft better items
-#    info:
-#      - title: Survival
-#      - text: "- Reduce elemental damage"
-#      - text: "- Avoid acid rain damage (Lv 10)"
-#      - text: "- Avoid ash rain damage (Lv 15)"
-#      - text: "- Craft better items"
-#    levels:
-#      "2": Reduce elemental and environmental damage.
-#      "3": Unlock the Luck skill and craft power jerky.
-#      "4": Reduce elemental and environmental damage.
-#      "5": Craft fire filets and reduce elemental and environmental damage.
-#      "6": Craft chemistry sets and reduce elemental and environmental damage.
-#      "7": Reduce elemental and environmental damage.
-#      "8": Reduce elemental and environmental damage.
-#      "9": Reduce elemental and environmental damage.
-#      "10": Reduce elemental and environmental damage.
+  survival:
+    description: Reduce elemental damage, avoid environmental damage, and craft better items
+    info:
+      - title: Survival
+      - text: "- Reduce elemental damage"
+      - text: "- Avoid acid rain damage (Lv 10)"
+      - text: "- Avoid ash rain damage (Lv 15)"
+      - text: "- Craft better items"
+    levels:
+      "2": Reduce elemental and environmental damage.
+      "3": Unlock the Luck skill and craft power jerky.
+      "4": Reduce elemental and environmental damage.
+      "5": Craft fire filets and reduce elemental and environmental damage.
+      "6": Craft chemistry sets and reduce elemental and environmental damage.
+      "7": Reduce elemental and environmental damage.
+      "8": Reduce elemental and environmental damage.
+      "9": Reduce elemental and environmental damage.
+      "10": Reduce elemental and environmental damage.
 
   barter:
     description: Craft better items, avoid workshop incidents, and reduce dessication

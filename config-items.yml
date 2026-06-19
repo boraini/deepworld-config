@@ -7444,17 +7444,50 @@ items:
         sound loop: old_compressor
   mechanical/furnace:
     <<: *steam-powered
+    <<: *mirrorable
+    category: Workshop
     code: 850
-    ingredients: [['building/brass', 10], ['building/iron', 5], ['building/pitch', 2], 'ground/crystal-blue-1']
-    crafting skill: ['engineering', 2]
-    mod: change
-    change:
-      - name: mechanical/furnace-lit
-        background: mechanical/furnace
-        sprite: mechanical/furnace-glow
-        glow: 1
-        light: 1
-        light_color: e9814b
+    mirrorable: true
+    steam: false
+    title_color: "#02AD00"
+    barter_message: "Perfect for warming my cold, dead heart."
+    shillings_price: 10
+    size: [ 1, 2 ]
+    smelt:
+      ground/iron-ore: 5
+      ground/copper-ore: 10
+      ground/zinc-ore: 10
+    ingredients: [ [ 'ground/iron-ore', 4 ], [ 'ground/copper-ore', 10 ], [ 'ground/zinc-ore', 10 ], [ 'ground/quartz-ore', 4 ], [ 'building/pitch', 2 ], [ 'ground/crystal-red-1', 1 ] ]
+    crafting skill: [ 'engineering', 3 ]
+    crafting_helper: true
+    hintt: "A brass, steam-powered furnace."
+    use:
+      extended steamable:
+        on variant: mechanical/furnace-lit
+        off variant: mechanical/furnace
+        inlets: [ [ -1, 0 ] ]
+  mechanical/furnace-lit:
+    <<: *steam-powered
+    <<: *mirrorable
+    category: Workshop
+    code: 2318
+    inventory: mechanical/furnace
+    light: 2
+    glow: 2
+    light_color: e9814b
+    background: mechanical/furnace
+    sprite: mechanical/furnace-glow
+    mirrorable: true
+    steam: false
+    title_color: "#02AD00"
+    size: [ 1, 2 ]
+    light_position: [ 0.0, -0.5 ]
+    crafting_helper: true
+    use:
+      extended steamable:
+        on variant: mechanical/furnace-lit
+        off variant: mechanical/furnace
+        inlets: [ [ -1, 0 ] ]
   mechanical/forge:
     <<: *steam-powered
     code: 852
