@@ -6454,8 +6454,8 @@ items:
     title: Brass Butler Bot
     karma: -5
     ingredients: [['building/brass-reinforced', 20], ['ground/quartz-ore', 10], ['ground/crystal-purple-1', 2], 'accessories/schematic']
-    crafting skill: ['automata', 4]
-    placing skill: ['automata', 3]
+    # crafting skill: ['automata', 4]
+    # placing skill: ['automata', 3]
 
   mechanical/butler-diamond:
     <<: *butler-item
@@ -6466,8 +6466,8 @@ items:
     title: Diamond Butler Bot
     karma: -10
     ingredients: [['building/brass-reinforced', 10], ['ground/quartz-ore', 20], ['ground/crystal-purple-1', 2], ['ground/diamond-ore', 5], 'accessories/schematic']
-    crafting skill: ['automata', 6]
-    placing skill: ['automata', 4]
+    # crafting skill: ['automata', 6]
+    # placing skill: ['automata', 4]
     rarity: 3
 
   mechanical/butler-onyx:
@@ -6479,8 +6479,8 @@ items:
     title: Onyx Butler Bot
     karma: -15
     ingredients: [['building/brass-reinforced', 10], ['ground/quartz-ore', 30], ['ground/crystal-purple-1', 2], ['ground/onyx', 4], 'accessories/schematic']
-    crafting skill: ['automata', 8]
-    placing skill: ['automata', 5]
+    # crafting skill: ['automata', 8]
+    # placing skill: ['automata', 5]
     rarity: 3
 
 
@@ -7367,7 +7367,7 @@ items:
     material: metal
     mod: change
     ingredients: [['building/brass', 15], ['building/iron', 15], ['ground/beryllium-ore', 5], ['ground/crystal-blue-1', 2], 'mechanical/mini-tesla']
-    crafting skill: ['science', 5]
+    # crafting skill: ['science', 5]
     crafting_helper: true
     change:
       - name: mechanical/tesla-coil-active
@@ -7541,7 +7541,7 @@ items:
     sprite: mechanical/magnet-trap-large
     title: Power Magnet
     ingredients: [['building/iron', 30], ['building/brass', 5], ['ground/quartz-ore', 10], 'ground/crystal-blue-1', ['ground/beryllium-ore', 4]]
-    crafting skill: ['science', 5]
+    # crafting skill: ['science', 5]
     crafting_helper: true
     change:
       - name: mechanical/magnet-active
@@ -8461,7 +8461,7 @@ items:
     inventory sprite: turrets/small-1
     title: Gun Turret
     ingredients: ['parts/gun-barrel', ['ammo/bullets', 4], 'building/brass', 'building/iron', ['ground/crystal-blue-1', 2]]
-    crafting skill: ['automata', 2]
+    # crafting skill: ['automata', 2]
 
   mechanical/turret-pistol-mk2:
     <<: *mechanical-turret
@@ -8484,7 +8484,7 @@ items:
     inventory sprite: turrets/small-2
     title: Fire Turret
     ingredients: ['parts/gun-barrel', ['building/pitch', 4], 'building/brass', 'building/iron', ['ground/crystal-blue-1', 3]]
-    crafting skill: ['automata', 3]
+    # crafting skill: ['automata', 3]
 
   mechanical/turret-fire-mk2:
     <<: *mechanical-turret
@@ -8507,7 +8507,7 @@ items:
     inventory sprite: turrets/large-1
     title: Acid Turret
     ingredients: ['parts/gun-barrel', ['back/glass', 3], ['building/brass', 3], 'building/iron', ['ground/crystal-blue-1', 3]]
-    crafting skill: ['automata', 4]
+    # crafting skill: ['automata', 4]
 
   mechanical/turret-acid-mk2:
     <<: *mechanical-turret
@@ -8530,7 +8530,7 @@ items:
     inventory sprite: turrets/large-2
     title: Flame Turret
     ingredients: [['parts/gun-barrel', 2], ['building/pitch', 8], 'building/brass', ['building/iron', 4], ['ground/crystal-blue-1', 4]]
-    crafting skill: ['automata', 5]
+    # crafting skill: ['automata', 5]
 
   mechanical/turret-flame-mk2:
     <<: *mechanical-turret
@@ -8553,7 +8553,7 @@ items:
     inventory sprite: turrets/dessicator
     title: Dessicator
     ingredients: [['parts/gun-barrel', 2], ['ground/quartz-ore', 3], ['building/iron', 2], ['building/brass', 2], ['ground/crystal-blue-1', 4]]
-    crafting skill: ['automata', 6]
+    # crafting skill: ['automata', 6]
 
   mechanical/turret-dessicator-mk2:
     <<: *mechanical-turret
@@ -9039,7 +9039,7 @@ items:
     ingredients: [['building/brass', 250], ['ground/quartz-ore', 50], ['ground/crystal-green-large', 2], ['mechanical/chemistry-set', 2]]
     crafting_helpers: [["furniture/blueprint-mass-spawner-brass", 1], ["mechanical/control-panel-large", 1], ["mechanical/magnet-large", 6]]
     crafting_events: [["bomb-fire", 0.75, 5]]
-    crafting skill: ["science", 4]
+    crafting skill: ["engineering", 4]
 
   machines/mass-spawner-diamond:
     <<: *mass-spawner-base
@@ -9064,7 +9064,7 @@ items:
     ingredients: [['machines/mass-spawner', 1], ['ground/crystal-green-large', 2], ['mechanical/chemistry-set', 2], ['ground/diamond-ore', 10]]
     crafting_helpers: [["furniture/blueprint-mass-spawner-diamond", 1], ["mechanical/control-panel-large", 2], ["mechanical/magnet-large", 8]]
     crafting_events: [["bomb-fire", 0.85, 5]]
-    crafting skill: ["science", 7]
+    crafting skill: ["engineering", 7]
 
 
   machines/mass-spawner-onyx:
@@ -9094,7 +9094,7 @@ items:
     ingredients: [['machines/mass-spawner-diamond', 1], ['ground/crystal-green-large', 2], ['mechanical/chemistry-set', 2], ['ground/onyx', 6]]
     crafting_helpers: [["furniture/blueprint-mass-spawner-onyx", 1], ["mechanical/control-panel-large", 3], ["mechanical/magnet-large", 10]]
     crafting_events: [["bomb-fire", 0.95, 5]]
-    crafting skill: ["science", 10]
+    crafting skill: ["engineering", 10]
 
   machines/mass-teleporter-base: &mass-teleporter-base
     <<: *world-machine
@@ -9119,7 +9119,7 @@ items:
     ingredients: [['building/brass', 250], ['ground/quartz-ore', 50], ['ground/crystal-orange', 2], ['mechanical/science-bulb', 2]]
     crafting_helpers: [["furniture/blueprint-mass-teleporter-brass", 1], ["mechanical/control-panel-large", 1], ["mechanical/mill", 6]]
     crafting_events: [["bomb-fire", 0.75, 5]]
-    crafting skill: ["science", 5]
+    crafting skill: ["engineering", 5]
 
   machines/mass-teleporter-diamond:
     <<: *mass-teleporter-base
@@ -9139,7 +9139,7 @@ items:
     ingredients: [['machines/mass-teleporter', 1], ['ground/crystal-orange', 2], ['mechanical/science-bulb', 2], ['ground/diamond-ore', 10]]
     crafting_helpers: [["furniture/blueprint-mass-teleporter-diamond", 1], ["mechanical/control-panel-large", 2], ["mechanical/mill", 8]]
     crafting_events: [["bomb-fire", 0.85, 5]]
-    crafting skill: ["science", 8]
+    crafting skill: ["engineering", 8]
 
   machines/mass-teleporter-onyx:
     <<: *mass-teleporter-base
@@ -9161,7 +9161,7 @@ items:
     ingredients: [['machines/mass-teleporter-diamond', 1], ['ground/crystal-orange', 2], ['mechanical/science-bulb', 2], ['ground/onyx', 6]]
     crafting_helpers: [["furniture/blueprint-mass-teleporter-onyx", 1], ["mechanical/control-panel-large", 3], ["mechanical/mill", 10]]
     crafting_events: [["bomb-fire", 0.95, 5]]
-    crafting skill: ["science", 11]
+    crafting skill: ["engineering", 11]
 
   machines/weather-machine-base: &weather-machine-base
     <<: *world-machine
@@ -9186,7 +9186,7 @@ items:
     ingredients: [['building/brass', 250], ['ground/quartz-ore', 50], ['ground/crystal-white-large', 2], ['mechanical/science-gadget', 2]]
     crafting_helpers: [["furniture/blueprint-weather-machine-brass", 1], ["mechanical/control-panel-large", 1], ["mechanical/lathe", 6]]
     crafting_events: [["bomb-fire", 0.75, 5]]
-    crafting skill: ["science", 6]
+    crafting skill: ["engineering", 6]
 
   machines/weather-machine-diamond:
     <<: *weather-machine-base
@@ -9206,7 +9206,7 @@ items:
     ingredients: [['machines/weather-machine', 1], ['ground/crystal-white-large', 2], ['mechanical/science-gadget', 2], ['ground/diamond-ore', 10]]
     crafting_helpers: [["furniture/blueprint-weather-machine-diamond", 1], ["mechanical/control-panel-large", 2], ["mechanical/lathe", 8]]
     crafting_events: [["bomb-fire", 0.85, 5]]
-    crafting skill: ["science", 9]
+    crafting skill: ["engineering", 9]
 
   machines/weather-machine-onyx:
     <<: *weather-machine-base
@@ -9230,7 +9230,7 @@ items:
     ingredients: [['machines/weather-machine-diamond', 1], ['ground/crystal-white-large', 2], ['mechanical/science-gadget', 2], ['ground/onyx', 6]]
     crafting_helpers: [["furniture/blueprint-weather-machine-onyx", 1], ["mechanical/control-panel-large", 3], ["mechanical/lathe", 10]]
     crafting_events: [["bomb-fire", 0.95, 5]]
-    crafting skill: ["science", 12]
+    crafting skill: ["engineering", 12]
 
 
   # ===== HELL ===== #
@@ -9900,19 +9900,19 @@ items:
   mechanical/control-panel:
     <<: *steam-powered
     code: 475
-    crafting skill: ['science', 2]
+    # crafting skill: ['science', 2]
     ingredients: [['building/brass', 8], ['building/iron', 5], ['ground/quartz-ore', 5], ['ground/beryllium-ore', 5], 'accessories/schematic']
     crafting_helper: true
   mechanical/control-panel-large:
     <<: *steam-powered
     code: 435
-    crafting skill: ['science', 4]
+    # crafting skill: ['science', 4]
     ingredients: [['building/brass', 20], ['building/iron', 10], ['ground/quartz-ore', 12], ['ground/beryllium-ore', 12], 'accessories/schematic']
     title: Large Control Panel
     crafting_helper: true
   mechanical/mini-tesla:
     code: 476
-    crafting skill: ['science', 3]
+    # crafting skill: ['science', 3]
     ingredients: [['building/brass', 3], ['building/iron', 3], ['ground/beryllium-ore', 2], 'ground/crystal-blue-1']
 
   mechanical/friend-parts-boxing-gloves:
@@ -11359,30 +11359,30 @@ items:
     tooltip: +3 horticulture
     title: Onyx Rake
 
-  accessories/science-magnifying-glass:
-    <<: *charm-l1
-    code: 292
-    bonus:
-      science: 1
-    tooltip: +1 science
-    wiki: false
-    title: Magnifying Glass
-  accessories/science-magnifying-headset:
-    <<: *charm-l2
-    code: 293
-    bonus:
-      science: 2
-    tooltip: +2 science
-    wiki: false
-    title: Magnifying Headset
-  accessories/science-microscope:
-    <<: *charm-l3
-    code: 294
-    bonus:
-      science: 3
-    tooltip: +3 science
-    wiki: false
-    title: Microscope
+#  accessories/science-magnifying-glass:
+#    <<: *charm-l1
+#    code: 292
+#    bonus:
+#      science: 1
+#    tooltip: +1 science
+#    wiki: false
+#    title: Magnifying Glass
+#  accessories/science-magnifying-headset:
+#    <<: *charm-l2
+#    code: 293
+#    bonus:
+#      science: 2
+#    tooltip: +2 science
+#    wiki: false
+#    title: Magnifying Headset
+#  accessories/science-microscope:
+#    <<: *charm-l3
+#    code: 294
+#    bonus:
+#      science: 3
+#    tooltip: +3 science
+#    wiki: false
+#    title: Microscope
 
   accessories/glove:
     <<: *charm-l1
@@ -11452,13 +11452,13 @@ items:
     inventory sprite: accessories/memory
     use:
       memory: 2
-  accessories/interface:
-    <<: *charm-l3
-    code: 1068
-    bonus:
-      automata: 3
-    tooltip: +3 automata
-    title: Automata Interface Unit
+#  accessories/interface:
+#    <<: *charm-l3
+#    code: 1068
+#    bonus:
+#      automata: 3
+#    tooltip: +3 automata
+#    title: Automata Interface Unit
 
   accessories/schematic:
     code: 1070
@@ -11488,7 +11488,7 @@ items:
   accessories/battery:
     code: 1073
     karma: -3
-    crafting skill: ['automata', 3]
+    # crafting skill: ['automata', 3]
     ingredients: [['building/brass', 1], ['ground/ectoplasm', 3]]
     crafting quantity: 5
 
@@ -12094,7 +12094,7 @@ items:
     ingredients: [["brain/pipe", 2000], "containers/wine-bottle"]
     crafting_helpers: [["mechanical/wine-press", 4]]
     crafting_events: [["spawn.brains", 0.5, 3]]
-    crafting skill: ["science", 10]
+    # crafting skill: ["science", 10]
 
   # ===== Wardrobe ===== #
 

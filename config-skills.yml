@@ -19,24 +19,24 @@ skills:
       "9": Move faster, reduce physical damage, and increase stealth duration
       "10": Move faster, reduce physical damage, and increase stealth duration
 
-  automata:
-    description: Increase Butler Bot duration and use more powerful directives
-    info:
-      - title: Automata
-      - text: "- Increase Butler Bot duration"
-      - text: "- Use more powerful Butler Bot directives"
-      - text: "- Craft better Butler Bots"
-      - text: "- Control more Butler Bots at the same time"
-    levels:
-      "2": Craft pistol turrets
-      "3": Craft fire turrets and batteries
-      "4": Craft acid turrets and brass butler bots
-      "5": Craft flame turrets
-      "6": Craft dessication turrets and diamond butler bots
-      "7": Increase butler bot utility
-      "8": Craft onyx butler bots
-      "9": Increase butler bot utility
-      "10": Increase butler bot utility
+#  automata:
+#    description: Increase Butler Bot duration and use more powerful directives
+#    info:
+#      - title: Automata
+#      - text: "- Increase Butler Bot duration"
+#      - text: "- Use more powerful Butler Bot directives"
+#      - text: "- Craft better Butler Bots"
+#      - text: "- Control more Butler Bots at the same time"
+#    levels:
+#      "2": Craft pistol turrets
+#      "3": Craft fire turrets and batteries
+#      "4": Craft acid turrets and brass butler bots
+#      "5": Craft flame turrets
+#      "6": Craft dessication turrets and diamond butler bots
+#      "7": Increase butler bot utility
+#      "8": Craft onyx butler bots
+#      "9": Increase butler bot utility
+#      "10": Increase butler bot utility
 
   building:
     description: Craft better items and place blocks farther away
@@ -198,21 +198,38 @@ skills:
       "9": Increase max health to 9 and accessory slots to 14.
       "10": Increase max health to 10 and accessory slots to 15.
 
-  survival:
-    description: Reduce elemental damage, avoid environmental damage, and craft better items
+#  survival:
+#    description: Reduce elemental damage, avoid environmental damage, and craft better items
+#    info:
+#      - title: Survival
+#      - text: "- Reduce elemental damage"
+#      - text: "- Avoid acid rain damage (Lv 10)"
+#      - text: "- Avoid ash rain damage (Lv 15)"
+#      - text: "- Craft better items"
+#    levels:
+#      "2": Reduce elemental and environmental damage.
+#      "3": Unlock the Luck skill and craft power jerky.
+#      "4": Reduce elemental and environmental damage.
+#      "5": Craft fire filets and reduce elemental and environmental damage.
+#      "6": Craft chemistry sets and reduce elemental and environmental damage.
+#      "7": Reduce elemental and environmental damage.
+#      "8": Reduce elemental and environmental damage.
+#      "9": Reduce elemental and environmental damage.
+#      "10": Reduce elemental and environmental damage.
+
+  barter:
+    description: Craft better items, avoid workshop incidents, and reduce dessication
     info:
-      - title: Survival
-      - text: "- Reduce elemental damage"
-      - text: "- Avoid acid rain damage (Lv 10)"
-      - text: "- Avoid ash rain damage (Lv 15)"
+      - title: Barter
+      - text: "- Avoid crafting workshop incidents"
       - text: "- Craft better items"
     levels:
-      "2": Reduce elemental and environmental damage.
-      "3": Unlock the Luck skill and craft power jerky.
-      "4": Reduce elemental and environmental damage.
-      "5": Craft fire filets and reduce elemental and environmental damage.
-      "6": Craft chemistry sets and reduce elemental and environmental damage.
-      "7": Reduce elemental and environmental damage.
-      "8": Reduce elemental and environmental damage.
-      "9": Reduce elemental and environmental damage.
-      "10": Reduce elemental and environmental damage.
+      "2": Craft control panels and decrease the chance of workshop incidents.
+      "3": Unlock the Automata skill and craft mini tesla coils.
+      "4": Craft large control panels and decrease the chance of workshop incidents.
+      "5": Craft large magnets, tesla coils, and decrease the chance of workshop incidents.
+      "6": Decrease the chance of workshop incidents.
+      "7": Decrease the chance of workshop incidents.
+      "8": Decrease the chance of workshop incidents.
+      "9": Decrease the chance of workshop incidents.
+      "10": Craft brain wine and decrease the chance of workshop incidents.
